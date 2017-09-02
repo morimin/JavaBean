@@ -1,0 +1,9 @@
+@category.sql
+@product.sql
+@basket.sql
+@member.sql
+@re_board.sql
+@qna.sql
+@notice.sql
+@product_view.sql
+@basket_view.sql

@@ -1,0 +1,9 @@
+drop view basket_view;
+drop view product_view;
+drop table notice;
+drop table qna;
+drop table re_board;
+drop table member;
+drop table basket;
+drop table product;
+drop table category;
