@@ -1,0 +1,143 @@
+/* comment */
+
+body { font-size:11pt; color:#000000; }  
+
+table { border-collapse:collapse; } 
+/* td { text-align:center; } */
+
+a:link{ font-size:11pt; color:#0000ff; text-decoration:none }  
+/* ; text-decoration 을 none 으로 해놔야 마우스 오버시 색 초기화 */
+a:visited{ font-size:11pt; color:#333333; text-decoration:none }
+a:hover{ font-size:11pt; color:#000000; text-decoration:none }
+
+#printlogin {width: 90%; margin: auto; }
+
+
+.udline{ border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+.udlineCenter { text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+#head .head{ font-size:200pt; }
+
+#header .insertMain{ width:150px; height:50px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:1px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+#header .listMain{ width:150px; height:50px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+#header .arrangeMain{ width:150px; height:50px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+#header .confirmMain{ width:150px; height:50px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+#header .nothingMain{ width:50px; height:50px; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+#header .deleteMain{ width:150px; height:50px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+
+
+
+#reportslist .reportsOrderHead{ width:50px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+/* ; # 은 id 찾는 명령어 = bbslist 에 있는 bbsOrderHead를 찾아서 {}와 같이 수정 */
+#reportslist .reportsDistingHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsYmdHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+/* ; solid 실선으로 그림 */
+#reportslist .reportsSdHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsSortHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTimesHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTitleHead{ width:250px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsUrlHead{ width:400px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+#reportslist .reportsOrder{ width:50px; height:auto; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsDisting{ width:100px; height:auto;  text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsYmd{ width:100px; height:auto;  text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsSd{ width:100px; height:auto; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsSort{ width:100px; height:auto;  text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTimes{ width:100px; height:auto;  text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTitle{ width:250px; height:auto;  text-align:center; padding:10px; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsUrl{ width:400px; height:auto; text-align:left; padding:10px; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+
+#reportsform .finalOrdHead { width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportsform .finalTitleHead { width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportsform .finalOrd{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #DDDDDD; }
+#reportsform .finalTitle{ width:500px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+
+#confirmm .searchOrdHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchIdxHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchYmdHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchSdHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchSortHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchTimesHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#confirmm .searchTitleHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+#confirmm .searchOrd{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchIdx{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchYmd{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchSd{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchSort{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchTimes{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#confirmm .searchTitle{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+
+#smhList { padding:10px;}
+#smhList .smhOrderHead{ width:50px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #BBBBBB; }
+/* ; # 은 id 찾는 명령어 = bbslist 에 있는 bbsOrderHead를 찾아서 {}와 같이 수정 */
+#smhList .smhHeadHead{ width:60px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#smhList .smhTitleHead{ width:350px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+/* ; solid 실선으로 그림 */
+#smhList .smhWriterHead{ width:100px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#smhList .smhYmdHead{ width:120px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#smhList .smhHmsHead{ width:120px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#smhList .smhHitHead{ width:70px; height:35px; background-color:#DDDDDD; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+#smhList .smhOrder{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:1px solid #DDDDDD; }
+#smhList .smhHead{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#smhList .smhTitle{ width:50px; height:30px; text-align:left; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#smhList .smhWriter{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#smhList .smhYmd{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#smhList .smhHms{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+#smhList .smhHit{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #DDDDDD; }
+
+
+/* 
+#reportslist .reportsOrder{ width:50px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsDisting{ width:100px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsYmd{ width:100px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsSd{ width:100px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsSort{ width:100px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTimes{ width:100px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsTitle{ width:250px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+#reportslist .reportsUrl{ width:250px; height:30px; text-align:center; border-top:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:0px solid #BBBBBB; border-right:0px solid #BBBBBB; }
+
+ */
+
+#container  { width:100%; height:100%; margin:0 auto; padding:10px; }
+#header   { height:100%; }
+#contents  { float:center; width:100%; height:1000px; }
+#content  { float:center; width:100%; min-height:100%; }
+#footer { margin-top:10px; width:100%; height:15px; border-top:1px solid gray;  text-align:center; padding:12px; position:relative; bottom:0%; clear:both;}
+
+ 
+#cover { background-color:#ffffff; float:left; width:29%; height:100%; text-align:right; }
+#plott { background-color:#ffffff; float:left; width:71%; height:100%; position:relative; top:-50px; margin-top:0px;}
+#piechart { top:0px; margin-top:0px; }
+
+/* smhMain.jsp */ 
+#smhContainer { width:100%; height:100%; margin:0 auto; padding:10px; }
+#smhHeader { background-color:#000000; floadt:center; text-align:center; width:100%; height:225px; }
+#smhContents {  background-color:#f0f0f0; float:center; width:100%; height:1000px; margin-top:20px; margin-right:20px; margin-bottom:20px; }
+#smhMenuList { background-color:#ffffff; float:left; width:16%; height: 95%; margin-top:20px; margin-right:20px; margin-bottom:20px; margin-left:20px; border-right:1px solid #BBBBBB; }
+#smhDisplay { background-color:#ffffff; float:left; width:77%; height: 95%; margin-top:20px; margin-right:20px; margin-bottom:20px; }
+ 
+#smhGreeting {margin-top:20px; margin-right:5px; margin-bottom:20px; margin-left:1px; }
+#smhMenuList { margin-top:20px; margin-right:20px; margin-bottom:20px; margin-left:20px; }
+
+#smhManList { margin-top:20px; margin-right:5px; margin-bottom:20px; margin-left:1px; }
+#smhCateg { margin-top:20px; margin-right:5px; margin-bottom:20px; margin-left:1px; }
+#smhBanner { margin-top:20px; margin-right:5px; margin-bottom:20px; margin-left:1px; }
+ 
+ 
+/* 
+#bbsinput .left{ text-align:center; width:100px; height:30px; line-height:180%; }
+#bbsinput .right{ text-align:left; width:500px; height:30px; line-height:180%; }
+#bbsinput textarea{ width:90%; height:250px; line-height:180%; }
+.안붙이면 태그 
+*/
+
+
+
+
+
+
+
