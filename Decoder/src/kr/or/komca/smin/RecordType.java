@@ -7,8 +7,7 @@ public class RecordType {
 	
 	String comm;
 	int type;
-	
-	ArrayList arrList = new ArrayList<>();
+		
 	
 	public RecordType(){
 		
